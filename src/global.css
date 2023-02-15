@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-oswald: Oswald;
+
+  /* font sizes */
+  --font-size-sm: 16px;
+  --font-size-base: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 30px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-crimson: #ef4a67;
+  --color-ghostwhite: #f8faff;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-md: 10px;
+}
