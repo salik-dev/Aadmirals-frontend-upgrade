@@ -83,6 +83,20 @@ section {
         margin: 33px;
         padding: 1%;
 }
+.cards1 h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 44px;
+    color: #FFFFFF;
+    color: white;
+}
+.cards1 p {
+    font-family: Roboto;
+    color: white;
+    line-height: 6px;
+}
 .cards {
     width: 25vw;
     /* height: 255px; */
@@ -104,7 +118,7 @@ section {
     font-weight: 700;
     font-size: 16px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #ef4a67;
 }
 
 .cards p {
@@ -153,11 +167,13 @@ button {
     color: #EF4A67;
     margin-top: 2px;
 }
-
+.cards-details{
+    padding: 4%;    
+}
 .stars {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.7rem;
     margin-top: -19px;
 }
 

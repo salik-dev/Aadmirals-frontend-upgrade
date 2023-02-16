@@ -28,4 +28,5 @@ function CarSlider (){
 
     );
 }
+
 export default CarSlider;

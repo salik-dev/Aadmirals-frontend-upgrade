@@ -144,18 +144,19 @@ function Home() {
                             <CardsSection2 />
                         </div>
                     </div>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <div className="carSlider">
-                        <CarSlider/>
+                        <CarSlider />
                     </div>
-                   
                 </div>
             </section>
             <section className="section8">
                 <div className="customer-container">
-                    <center><h2>WHAT OUR CUSTOMERS ARE SAYING</h2></center>
-                        <CustomerFeedBack />
+                    <center>
+                        <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+                    </center>
+                    <CustomerFeedBack />
                 </div>
             </section>
             <section >
@@ -165,7 +166,7 @@ function Home() {
                         At Upstart, we pride ourselves on offering exceptional customer experiences for every client that walks through our doors.
                     </p>
                 </div>
-                <Faqs/>
+                <Faqs />
 
             </section>
         </>
