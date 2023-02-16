@@ -75,14 +75,21 @@ section {
 .cardsContainer {
     text-align: center;
 }
-
+.cards1{
+        width: 275px;
+        height: 255px;
+        background: #EF4A67;
+        box-shadow: 0px 0px 27px 3px rgb(0 0 0 / 25%);
+        margin: 33px;
+        padding: 1%;
+}
 .cards {
-
-    width: 275px;
-    height: 255px;
-    background: #EF4A67;
+    width: 25vw;
+    /* height: 255px; */
+    background: white;
     box-shadow: 0px 0px 27px 3px rgb(0 0 0 / 25%);
-    margin: 33px;
+    margin: 2%;
+    border-radius: 5px;
     padding: 1%;
 }
 
@@ -121,16 +128,13 @@ button {
 
 .cardsParentContainer {
     display: flex;
-    display: flex;
     justify-content: start;
     display: inline-flex;
 }
 
 .cardsParentContainer2 {
     display: flex;
-    display: flex;
-    justify-content: start;
-    display: inline-flex;
+    justify-content: center;
 }
 
 .cardsParentContainer2 .cards {
@@ -201,10 +205,8 @@ button {
 
 .section5 {
     background-color: #EF4A67;
-    height: 80vh;
+    height: 150vh;
 }
-
-
 
 .container2 {
     display: flex;
@@ -235,9 +237,13 @@ button {
     background-color: white;
     border: none;
     border-radius: 5px;
-
+    margin-top: 5px;
 }
-
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* customer feed back */
 /* .customer-container
 {
@@ -465,5 +471,5 @@ img {
     width: 60%;
 }
 .section8{
-    height: 35vh !important;
+    height: 55vh !important;
 }

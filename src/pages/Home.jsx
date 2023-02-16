@@ -3,6 +3,7 @@ import CustomerFeedBack from "./CustomerFeedBack";
 import "./style.css";
 import CardsSection2 from "./destinationCardsSection2";
 import CardsSection1 from "./destinationCardsSection1";
+import CarSlider from "./CarSilder";
 
 function Home() {
 
@@ -143,6 +144,12 @@ function Home() {
                             <CardsSection2 />
                         </div>
                     </div>
+                    <br/>
+                    <br/>
+                    <div className="carSlider">
+                        <CarSlider/>
+                    </div>
+                   
                 </div>
             </section>
             <section className="section8">
