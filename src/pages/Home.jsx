@@ -1,7 +1,11 @@
 import Faqs from "../component/Faqs";
 import CustomerFeedBack from "./CustomerFeedBack";
 import "./style.css";
+import CardsSection2 from "./destinationCardsSection2";
+import CardsSection1 from "./destinationCardsSection1";
+
 function Home() {
+
     return (
         <>
             <section className="home-section">
@@ -27,7 +31,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="section02">
                 <div className="container">
                     <div className="content-container">
                         <div>
@@ -102,27 +106,42 @@ function Home() {
                 </div>
             </section>
             <section className="section4">
-                <div className="container">
+                <div className="cardsContainer">
                     <div className="content-container">
-                        <div>
-                            <h5>STRESS-FREE IAH AIRPORT TRANSPORTATION</h5>
-                        </div>
-                        <div>
-                            <h3>Get first-class service to and from the airport with AAdmirals</h3>
-                        </div>
-                        <div>
-                            <p>AAdmirals provides superior Houston George Bush Airport Transport black car service, including a George Bush Airport shuttle service, guaranteed to be on time. Our professional chauffeurs are vetted, background-checked, and experienced, and our vehicles are pristine late models and fully insured. Trust AAdmirals to find the most efficient routes as you ride in comfort. Free 60 minutes wait time for international flights, 30 minutes for domestic flights arrivals at airport pickups and 15 mins for all others.</p>
-                            <p> AAdmirals provides superior Houston George Bush Airport Transport black car service, including a George Bush Airport shuttle service, guaranteed to be on time. Our professional chauffeurs are vetted, background-checked, and experienced, and our vehicles are pristine late models and fully insured. Trust AAdmirals to find the most efficient routes as you ride in comfort. Free 60 minutes wait time for international flights, 30 minutes for domestic flights arrivals at airport pickups and 15 mins for all others.</p>
-                        </div>
-                        <br />
-                        <div className="button-container">
-                            <button>
-                                Read More
-                            </button>
+                        <div className="cardContent">
+                            <div>
+                                <h3 className="cards-heading">Popular Destnations</h3>
+                            </div>
+                            <div>
+                                <p className="cards-content">STRESS-FREE IAH AIRPORT TRANSPORTATION</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="image-container">
-                        <img src="group-2371@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
+                    <div className="cardsParentContainer">
+                        <CardsSection1 />
+                        <CardsSection1 />
+                        <CardsSection1 />
+                    </div>
+                </div>
+            </section>
+            <section className="section5">
+                <div className="cardsContainer">
+                    <div className="destinations">
+                        <div className="content-container">
+                            <div className="cardContent">
+                                <div>
+                                    <h3 className="cards-heading">Popular Destnations</h3>
+                                </div>
+                                <div>
+                                    <p className="cards-content">STRESS-FREE IAH AIRPORT TRANSPORTATION</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="cardsParentContainer2">
+                            <CardsSection2 />
+                            <CardsSection2 />
+                            <CardsSection2 />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -145,4 +164,5 @@ function Home() {
         </>
     );
 }
+
 export default Home;
