@@ -1,8 +1,9 @@
 section {
-    height:78vh;
+    height: 78vh;
     padding: 5%;
     padding-bottom: 12%;
 }
+
 .home-section {
     background-color: #EF4A67;
     color: white;
@@ -68,6 +69,109 @@ section {
     margin-right: 2%;
 }
 
+.cardsContainer {
+    text-align: center;
+}
+
+.cards {
+
+    width: 275px;
+    height: 255px;
+    background: #EF4A67;
+    box-shadow: 0px 0px 27px 3px rgb(0 0 0 / 25%);
+    margin: 33px;
+    padding: 1%;
+}
+
+.cards-heading,
+.cards-content {
+    color: black;
+}
+
+.cards h4 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.cards p {
+    margin-top: -24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+button {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 136px;
+    height: 47px;
+    border-color: white;
+    margin-top: 9%;
+    color: #EF4A67;
+}
+
+.cardsParentContainer {
+    display: flex;
+    display: flex;
+    justify-content: start;
+    display: inline-flex;
+}
+
+.cardsParentContainer2 {
+    display: flex;
+    display: flex;
+    justify-content: start;
+    display: inline-flex;
+}
+
+.cardsParentContainer2 .cards {
+    background: white;
+    border-radius: 5px;
+    height: 401px;
+}
+
+.cards-details h5 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EF4A67;
+    margin-top: 2px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -19px;
+}
+
+.cards-details button {
+    color: white;
+    background-color: #EF4A67;
+}
+
+.cardsParentContainer2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #EF4A67;
+    /* margin-top: 0 !important; */
+    /* justify-content: left; */
+    text-align: left;
+    width: 18.1vw;
+    line-height: 16px;
+}
+
 .image-container {
     margin-left: 3%;
 }
@@ -77,12 +181,29 @@ section {
     height: 69vh;
     background-color: #EF4A67;
 }
-.section3{
+
+.section3 {
     height: 69vh;
 }
-.section4{
-    background-color: #EF4A67;
+
+.section4 {
+    /* background-color: #EF4A67; */
     color: white;
+    height: 30vh !important;
+}
+
+.cardsContainer {
+    align-items: center;
+    margin-top: -8%;
+}
+
+.section5 {
+    background-color: #EF4A67;
+    height: 50vh;
+}
+
+.destinations {
+    padding-top: 4%;
 }
 
 .container2 {
@@ -95,10 +216,11 @@ section {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 21px;
     width: 40vw;
 }
-.content-container2 div > h3{
+
+.content-container2 div>h3 {
     font-size: 30px;
 }
 

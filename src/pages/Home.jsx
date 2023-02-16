@@ -1,5 +1,10 @@
 import "./style.css";
 function Home() {
+    const cardsStyle = {
+        marginTop: "2px",
+        display: "flex",
+        color: "#EF4A67"
+    }
     return (
         <>
             <section className="home-section">
@@ -100,27 +105,89 @@ function Home() {
                 </div>
             </section>
             <section className="section4">
-                <div className="container">
+                <div className="cardsContainer">
                     <div className="content-container">
-                        <div>
-                            <h5>STRESS-FREE IAH AIRPORT TRANSPORTATION</h5>
-                        </div>
-                        <div>
-                            <h3>Get first-class service to and from the airport with AAdmirals</h3>
-                        </div>
-                        <div>
-                            <p>AAdmirals provides superior Houston George Bush Airport Transport black car service, including a George Bush Airport shuttle service, guaranteed to be on time. Our professional chauffeurs are vetted, background-checked, and experienced, and our vehicles are pristine late models and fully insured. Trust AAdmirals to find the most efficient routes as you ride in comfort. Free 60 minutes wait time for international flights, 30 minutes for domestic flights arrivals at airport pickups and 15 mins for all others.</p>
-                            <p> AAdmirals provides superior Houston George Bush Airport Transport black car service, including a George Bush Airport shuttle service, guaranteed to be on time. Our professional chauffeurs are vetted, background-checked, and experienced, and our vehicles are pristine late models and fully insured. Trust AAdmirals to find the most efficient routes as you ride in comfort. Free 60 minutes wait time for international flights, 30 minutes for domestic flights arrivals at airport pickups and 15 mins for all others.</p>
-                        </div>
-                        <br />
-                        <div className="button-container">
-                            <button>
-                                Read More
-                            </button>
+                        <div className="cardContent">
+                            <div>
+                                <h3 className="cards-heading">Popular Destnations</h3>
+                            </div>
+                            <div>
+                                <p className="cards-content">STRESS-FREE IAH AIRPORT TRANSPORTATION</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="image-container">
-                        <img src="group-2371@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
+                    <div className="cardsParentContainer">
+                        <div className="cards">
+                            <h4>George Bush Airport</h4>
+                            <p>Downtown Houston </p>
+                            <p>Approx. 24 mile</p>
+                            <button>BOOK NOW</button>
+                        </div>
+                        <div className="cards">
+                            <h4>George Bush Airport</h4>
+                            <p>Downtown Houston </p>
+                            <p>Approx. 24 mile</p>
+                            <button>BOOK NOW</button>
+                        </div>
+                        <div className="cards">
+                            <h4>George Bush Airport</h4>
+                            <p>Downtown Houston </p>
+                            <p>Approx. 24 mile</p>
+                            <button>BOOK NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section5">
+                <div className="cardsContainer">
+                    <div className="destinations">
+                        <div className="content-container">
+                            <div className="cardContent">
+                                <div>
+                                    <h3 className="cards-heading">Popular Destnations</h3>
+                                </div>
+                                <div>
+                                    <p className="cards-content">STRESS-FREE IAH AIRPORT TRANSPORTATION</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="cardsParentContainer2">
+                            <div className="cards">
+                                <div className="image-container">
+                                    <img src="car pics.svg" style={{
+                                        height: 'fit-content',
+                                        width: '18.2vw',
+                                        marginLeft: "-4%"
+                                    }}
+                                    />
+                                </div>
+                                <div className="cards-details">
+                                    <h4 style={cardsStyle}>Standard Sedan Lincoln MKS, MKZ</h4>
+                                    <p>Clean in and out 4 doors, 2 rows of seats clean Sedan car fit for 2 people with 2 check-in bags and 2 carry-ons.</p>
+                                    <h5>From $75 Per Hour</h5>
+                                    <div className="stars">
+                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
+                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
+                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
+                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
+                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
+                                    </div>
+                                    <button>BOOK NOW</button>
+                                </div>
+                            </div>
+                            <div className="cards" style={cardsStyle}>
+                                <h4>George Bush Airport</h4>
+                                <p>Downtown Houston </p>
+                                <p>Approx. 24 mile</p>
+                                <button>BOOK NOW</button>
+                            </div>
+                            <div className="cards">
+                                <h4>George Bush Airport</h4>
+                                <p>Downtown Houston </p>
+                                <p>Approx. 24 mile</p>
+                                <button>BOOK NOW</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
