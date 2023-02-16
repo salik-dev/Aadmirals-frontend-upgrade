@@ -162,7 +162,7 @@ function Home() {
                     <CustomerFeedBack />
                 </div>
             </section>
-            <section >
+            <section style={{padding:'3% 5%'}} >
                 <div className="faqs">
                     <h2>Frequently Ask Questions</h2>
                     <p>
