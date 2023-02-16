@@ -21,14 +21,17 @@ function Home() {
                     </div>
                 </div>
                 <div className="home-logo-section">
-                    <div>
-                        <img src="Group 4.svg" />
+                    <div className="logo-area">
+                        <img src="1.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
-                    <div>
-                        <img src="Group 5.svg" />
+                    <div className="logo-area">
+                        <img src="2.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
-                    <div>
-                        <img src="Group 6.svg" />
+                    <div className="logo-area">
+                        <img src="3.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
                 </div>
             </section>
