@@ -1,10 +1,9 @@
 import "./style.css";
+import CardsSection2 from "./destinationCardsSection2";
+import CardsSection1 from "./destinationCardsSection1";
+
 function Home() {
-    const cardsStyle = {
-        marginTop: "2px",
-        display: "flex",
-        color: "#EF4A67"
-    }
+
     return (
         <>
             <section className="home-section">
@@ -117,24 +116,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="cardsParentContainer">
-                        <div className="cards">
-                            <h4>George Bush Airport</h4>
-                            <p>Downtown Houston </p>
-                            <p>Approx. 24 mile</p>
-                            <button>BOOK NOW</button>
-                        </div>
-                        <div className="cards">
-                            <h4>George Bush Airport</h4>
-                            <p>Downtown Houston </p>
-                            <p>Approx. 24 mile</p>
-                            <button>BOOK NOW</button>
-                        </div>
-                        <div className="cards">
-                            <h4>George Bush Airport</h4>
-                            <p>Downtown Houston </p>
-                            <p>Approx. 24 mile</p>
-                            <button>BOOK NOW</button>
-                        </div>
+                        <CardsSection1 />
+                        <CardsSection1 />
+                        <CardsSection1 />
                     </div>
                 </div>
             </section>
@@ -152,41 +136,9 @@ function Home() {
                             </div>
                         </div>
                         <div className="cardsParentContainer2">
-                            <div className="cards">
-                                <div className="image-container">
-                                    <img src="car pics.svg" style={{
-                                        height: 'fit-content',
-                                        width: '18.2vw',
-                                        marginLeft: "-4%"
-                                    }}
-                                    />
-                                </div>
-                                <div className="cards-details">
-                                    <h4 style={cardsStyle}>Standard Sedan Lincoln MKS, MKZ</h4>
-                                    <p>Clean in and out 4 doors, 2 rows of seats clean Sedan car fit for 2 people with 2 check-in bags and 2 carry-ons.</p>
-                                    <h5>From $75 Per Hour</h5>
-                                    <div className="stars">
-                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
-                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
-                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
-                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
-                                    <img src="star 1.svg" style={{ height: 'fit-content',marginLeft: "-4%" }}/>
-                                    </div>
-                                    <button>BOOK NOW</button>
-                                </div>
-                            </div>
-                            <div className="cards" style={cardsStyle}>
-                                <h4>George Bush Airport</h4>
-                                <p>Downtown Houston </p>
-                                <p>Approx. 24 mile</p>
-                                <button>BOOK NOW</button>
-                            </div>
-                            <div className="cards">
-                                <h4>George Bush Airport</h4>
-                                <p>Downtown Houston </p>
-                                <p>Approx. 24 mile</p>
-                                <button>BOOK NOW</button>
-                            </div>
+                            <CardsSection2 />
+                            <CardsSection2 />
+                            <CardsSection2 />
                         </div>
                     </div>
                 </div>
@@ -194,4 +146,5 @@ function Home() {
         </>
     );
 }
+
 export default Home;
