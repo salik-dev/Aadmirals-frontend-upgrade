@@ -1,3 +1,5 @@
+import Faqs from "../component/Faqs";
+import CustomerFeedBack from "./CustomerFeedBack";
 import "./style.css";
 function Home() {
     return (
@@ -123,6 +125,22 @@ function Home() {
                         <img src="group-2371@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
                     </div>
                 </div>
+            </section>
+            <section className="section8">
+                <div className="customer-container">
+                    <center><h2>WHAT OUR CUSTOMERS ARE SAYING</h2></center>
+                        <CustomerFeedBack />
+                </div>
+            </section>
+            <section >
+                <div className="faqs">
+                    <h2>Frequently Ask Questions</h2>
+                    <p>
+                        At Upstart, we pride ourselves on offering exceptional customer experiences for every client that walks through our doors.
+                    </p>
+                </div>
+                <Faqs/>
+
             </section>
         </>
     );
