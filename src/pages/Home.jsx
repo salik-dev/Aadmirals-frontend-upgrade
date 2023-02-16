@@ -29,7 +29,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="section02">
                 <div className="container">
                     <div className="content-container">
                         <div>

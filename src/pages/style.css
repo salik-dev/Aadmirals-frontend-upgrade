@@ -1,13 +1,15 @@
 section {
-    height: 78vh;
-    padding: 5%;
+    padding: 3%;
     padding-bottom: 12%;
+    
 }
-
+.section02{
+    height: 80vh;
+}
 .home-section {
     background-color: #EF4A67;
     color: white;
-
+    height: 80vh;
 }
 
 .home-container {
@@ -48,6 +50,7 @@ section {
     background-color: #EF4A67;
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .content-container h5 {
@@ -178,33 +181,30 @@ button {
 
 .section2 {
     color: white;
-    height: 69vh;
+    height: 85vh;
     background-color: #EF4A67;
 }
 
 .section3 {
-    height: 69vh;
+    height: 80vh;
 }
 
-.section4 {
+ .section4 {
     /* background-color: #EF4A67; */
-    color: white;
-    height: 30vh !important;
+     /* color: white; */
+    height: 50vh ; 
 }
 
 .cardsContainer {
     align-items: center;
-    margin-top: -8%;
 }
 
 .section5 {
     background-color: #EF4A67;
-    height: 50vh;
+    height: 80vh;
 }
 
-.destinations {
-    padding-top: 4%;
-}
+
 
 .container2 {
     display: flex;
@@ -235,4 +235,5 @@ button {
     background-color: white;
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
 }
