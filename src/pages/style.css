@@ -113,7 +113,8 @@ section {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 35px;
+    line-height: 16px;
+    text-align: left;
 }
 
 button {
@@ -172,10 +173,7 @@ button {
     font-size: 14px;
     line-height: 19px;
     color: #EF4A67;
-    /* margin-top: 0 !important; */
-    /* justify-content: left; */
     text-align: left;
-    width: 18.1vw;
     line-height: 16px;
 }
 
@@ -204,7 +202,6 @@ button {
 }
 
 .section5 {
-    background-color: #EF4A67;
     height: 150vh;
 }
 
@@ -472,4 +469,7 @@ img {
 }
 .section8{
     height: 55vh !important;
+}
+.carSlider {
+    margin-left: 3%;
 }
