@@ -4,8 +4,12 @@ import "./style.css"
 const CardsSection2 = () => {
     const cardsStyle = {
         marginTop: "2px",
-        display: "flex",
-        color: "#EF4A67"
+        display: "flex"
+    }
+    const starsStyle = { 
+        height: 'fit-content', 
+        marginLeft: "-4%", 
+        width: "1.5vw" 
     }
     return (
         <div className="cards">
@@ -20,15 +24,15 @@ const CardsSection2 = () => {
             </div>
             <div className="cards-details">
                 <h4 style={cardsStyle}>Standard Sedan Lincoln MKS, MKZ</h4>
-                <p>Clean in and out 4 doors, 2 rows of seats clean Sedan car fit for 2 people with 2 check-in bags and 2 carry-ons.</p>
+                <p style={{color: "#EF4A67"}}>Clean in and out 4 doors, 2 rows of seats clean Sedan car fit for 2 people with 2 check-in bags and 2 carry-ons.</p>
                 <div className='card-inner'>
                     <h5>From $75 Per Hour</h5>
                     <div className="stars">
-                        <img src="star 1.svg" style={{ height: 'fit-content', marginLeft: "-4%" }} />
-                        <img src="star 1.svg" style={{ height: 'fit-content', marginLeft: "-4%" }} />
-                        <img src="star 1.svg" style={{ height: 'fit-content', marginLeft: "-4%" }} />
-                        <img src="star 1.svg" style={{ height: 'fit-content', marginLeft: "-4%" }} />
-                        <img src="star 1.svg" style={{ height: 'fit-content', marginLeft: "-4%" }} />
+                        <img src="star 1.svg" style={starsStyle} />
+                        <img src="star 1.svg" style={starsStyle} />
+                        <img src="star 1.svg" style={starsStyle} />
+                        <img src="star 1.svg" style={starsStyle} />
+                        <img src="star 1.svg" style={starsStyle} />
                     </div>
                     <button>BOOK NOW</button>
                 </div>
