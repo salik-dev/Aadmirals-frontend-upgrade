@@ -1,12 +1,14 @@
-section{
-    height: 100vh;
+section {
+    height:78vh;
     padding: 5%;
+    padding-bottom: 12%;
 }
-.home-section{
+.home-section {
     background-color: #EF4A67;
-    color:white;
+    color: white;
 
 }
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -15,24 +17,29 @@ section{
     align-content: center;
     flex-wrap: wrap;
 }
-.home-container h3{
+
+.home-container h3 {
     font-size: 30px;
     font-family: 'Oswald';
 }
-.home-container p{
+
+.home-container p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
+
 .home-logo-section {
-    margin-top: 12vh ;
+    margin-top: 12vh;
     display: flex;
     justify-content: space-between;
 }
+
 .container {
     display: flex;
 }
+
 .button-container button {
     height: 3rem;
     width: 10rem;
@@ -41,38 +48,64 @@ section{
     border: none;
     border-radius: 5px;
 }
-.content-container h5{
+
+.content-container h5 {
     font-family: 'Roboto';
     font-size: 18px;
 }
-.content-container h3{
+
+.content-container h3 {
     font-family: 'Oswald';
     font-size: 30px;
 }
-.content-container p{
+
+.content-container p {
     font-family: 'Roboto';
     font-size: 18px;
 }
+
 .content-container {
     margin-right: 2%;
 }
+
 .image-container {
     margin-left: 3%;
 }
-.section2{
+
+.section2 {
     color: white;
+    height: 69vh;
     background-color: #EF4A67;
 }
-.container2{
-    display: flex;
-    
+.section3{
+    height: 69vh;
 }
+.section4{
+    background-color: #EF4A67;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+
+}
+
 .content-container2 {
     margin-left: 3%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+    width: 40vw;
 }
+.content-container2 div > h3{
+    font-size: 30px;
+}
+
 .image-container2 {
     margin-right: 2%;
 }
+
 .button-container2 button {
     height: 3rem;
     width: 10rem;
