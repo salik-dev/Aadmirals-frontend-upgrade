@@ -206,13 +206,13 @@ button {
 }
 
 .section3 {
-    height: 80vh;
+    height: 65vh;
 }
 
  .section4 {
     /* background-color: #EF4A67; */
      /* color: white; */
-    height: 50vh ; 
+    height: 45vh ; 
 }
 
 .cardsContainer {
@@ -481,7 +481,7 @@ img {
     width: 60%;
 }
 .section8{
-    height: 55vh !important;
+    height: 30vh !important;
 }
 .carSlider {
     margin-left: 3%;
