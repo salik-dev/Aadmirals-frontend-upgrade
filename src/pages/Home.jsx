@@ -1,6 +1,9 @@
+import Faqs from "../component/Faqs";
+import CustomerFeedBack from "./CustomerFeedBack";
 import "./style.css";
 import CardsSection2 from "./destinationCardsSection2";
 import CardsSection1 from "./destinationCardsSection1";
+import CarSlider from "./CarSilder";
 
 function Home() {
 
@@ -18,14 +21,17 @@ function Home() {
                     </div>
                 </div>
                 <div className="home-logo-section">
-                    <div>
-                        <img src="Group 4.svg" />
+                    <div className="logo-area">
+                        <img src="1.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
-                    <div>
-                        <img src="Group 5.svg" />
+                    <div className="logo-area">
+                        <img src="2.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
-                    <div>
-                        <img src="Group 6.svg" />
+                    <div className="logo-area">
+                        <img src="3.png" />
+                        <span>Always on time for your pick-Up, and free of charge wait time</span>
                     </div>
                 </div>
             </section>
@@ -141,7 +147,30 @@ function Home() {
                             <CardsSection2 />
                         </div>
                     </div>
+                    <br />
+                    <br />
+                    <div className="carSlider">
+                        <CarSlider />
+                    </div>
                 </div>
+            </section>
+            <section className="section8">
+                <div className="customer-container">
+                    <center>
+                        <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+                    </center>
+                    <CustomerFeedBack />
+                </div>
+            </section>
+            <section style={{padding:'3% 5%'}} >
+                <div className="faqs">
+                    <h2>Frequently Ask Questions</h2>
+                    <p>
+                        At Upstart, we pride ourselves on offering exceptional customer experiences for every client that walks through our doors.
+                    </p>
+                </div>
+                <Faqs />
+
             </section>
         </>
     );
