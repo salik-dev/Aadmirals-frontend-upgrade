@@ -1,6 +1,7 @@
 section {
     padding: 3%;
     padding-bottom: 12%;
+    overflow: hidden;
     
 }
 .section02{
@@ -54,25 +55,43 @@ section {
     margin-top: 5px;
 }
 
-.content-container h5 {
+.content-container1 h5 {
     font-family: 'Roboto';
     font-size: 18px;
 }
 
-.content-container h3 {
+.content-container1 h3 {
     font-family: 'Oswald';
     font-size: 30px;
 }
 
-.content-container p {
+.content-container1 p {
     font-family: 'Roboto';
     font-size: 18px;
 }
 
-.content-container {
+.content-container1 {
     margin-right: 2%;
+    width: 45vw;
 }
-
+.content-container h3{
+    font-family: 'Oswald';
+    font-size: 30px;
+    color:#EF4A67;
+}
+.content-container p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color:#EF4A67;
+}
+.content-container3 h3{
+    font-family: 'Oswald';
+    font-size: 30px;
+}
+.content-container3 p {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
 .cardsContainer {
     text-align: center;
 }
@@ -157,7 +176,7 @@ button {
 .cardsParentContainer2 .cards {
     background: white;
     border-radius: 5px;
-    height: 401px;
+    height: fit-content;
 }
 
 .cards-details h5 {
@@ -195,40 +214,36 @@ button {
     line-height: 16px;
 }
 
-.image-container {
+.image-container1 {
     margin-left: 3%;
+    width: 45vw;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 .section2 {
     color: white;
     height: 85vh;
     background-color: #EF4A67;
 }
-
 .section3 {
-    height: 65vh;
+    height: 70vh;
 }
-
  .section4 {
-    /* background-color: #EF4A67; */
-     /* color: white; */
     height: 45vh ; 
 }
-
 .cardsContainer {
     align-items: center;
 }
-
 .section5 {
     height: 150vh;
 }
-
 .container2 {
     display: flex;
-
 }
 
-.content-container2 {
+.content-container22 {
     margin-left: 3%;
     font-family: 'Roboto';
     font-weight: 400;
@@ -236,11 +251,13 @@ button {
     line-height: 21px;
     width: 40vw;
 }
-.content-container2 div>h3 {
+.content-container22 div>h3 {
     font-size: 30px;
 }
-.image-container2 {
+.image-container22 {
     margin-right: 2%;
+    width: 45vw;
+    display: flex;
 }
 .button-container2 button {
     height: 3rem;
@@ -505,4 +522,24 @@ img {
     text-align: center;
 
     color: #F8FAFF;
+}
+.img-back-right {
+    height: 70vh;
+    width: 40vh;
+    border-radius: 16px;
+    background-color: #EF4A67;
+}
+.img-left {
+    position: absolute;
+    margin: 2.5%;
+}
+.img-back-left {
+    height: 70vh;
+    width: 40vh;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.img-right {
+    position: absolute;
+    margin: 2.5%;
 }

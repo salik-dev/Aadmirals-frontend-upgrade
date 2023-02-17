@@ -17,8 +17,7 @@ const CardsSection2 = () => {
                 <img src="car pics.svg" style={{
                     height: 'fit-content',
                     width: '24vw',
-                    marginLeft: "-4%",
-                    marginTop:'1%'
+                    marginTop:'2%'
                 }}
                 />
             </div>

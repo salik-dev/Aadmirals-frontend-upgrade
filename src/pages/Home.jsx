@@ -37,7 +37,7 @@ function Home() {
             </section>
             <section className="section02">
                 <div className="container">
-                    <div className="content-container">
+                    <div className="content-container1">
                         <div>
                             <h5>STRESS-FREE IAH AIRPORT TRANSPORTATION</h5>
                         </div>
@@ -55,17 +55,25 @@ function Home() {
                             </button>
                         </div>
                     </div>
-                    <div className="image-container">
-                        <img src="group-2371@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
+                    <div className="image-container1">
+                        <div className="img-left">
+                            <img src="group-2372@2x.png" style={{ height: '60vh', width: '40vw',borderRadius:'3%' }} />
+                            </div>
+                            <div className="img-back-right">
+                        </div>
                     </div>
                 </div>
             </section>
             <section className="section2" >
                 <div className="container2">
-                    <div className="image-container2">
-                        <img src="group-2372@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
+                    <div className="image-container22">
+                        <div className="img-right">
+                            <img src="group-2372@2x.png" style={{ height: '60vh', width: '40vw',borderRadius:'3%' }} />
+                            </div>
+                            <div className="img-back-left">
+                        </div>
                     </div>
-                    <div className="content-container2">
+                    <div className="content-container22">
                         <div>
                             <h3>Houston- limo- service- IAH- Airport</h3>
                         </div>
@@ -86,7 +94,7 @@ function Home() {
             </section>
             <section className="section3">
                 <div className="container">
-                    <div className="content-container">
+                    <div className="content-container1">
                         <div>
                             <h5>STRESS-FREE IAH AIRPORT TRANSPORTATION</h5>
                         </div>
@@ -104,8 +112,12 @@ function Home() {
                             </button>
                         </div>
                     </div>
-                    <div className="image-container">
-                        <img src="group-2371@2x.png" style={{ height: 'fit-content', width: '45vw' }} />
+                    <div className="image-container1">
+                        <div className="img-left">
+                            <img src="group-2372@2x.png" style={{ height: '60vh', width: '40vw',borderRadius:'3%' }} />
+                            </div>
+                            <div className="img-back-right">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -131,7 +143,7 @@ function Home() {
             <section className="section5">
                 <div className="cardsContainer">
                     <div className="destinations">
-                        <div className="content-container">
+                        <div className="content-container3">
                             <div className="cardContent">
                                 <div>
                                     <h3 className="cards-heading">Popular Destnations</h3>
