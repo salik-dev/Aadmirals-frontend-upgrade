@@ -238,7 +238,8 @@ button {
     align-items: center;
 }
 .section5 {
-    height: 150vh;
+    height: fit-content;
+    padding-bottom: 2%;
 }
 .container2 {
     display: flex;
